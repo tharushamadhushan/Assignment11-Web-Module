@@ -1,0 +1,158 @@
+body{
+    width: 100vw;
+    height: 50vw;
+    overflow-x: hidden;
+}
+#current-date{
+    position: relative;
+    /*margin-left: 400px;*/
+    font-size: 25px;
+    font-style: italic;
+}
+#manage_order{
+    width: 100vw;
+    height: content-box;
+    position: absolute;
+    background: linear-gradient(180deg, rgb(0, 151, 236, 100%),rgb(255, 255, 255, 100%));
+}
+
+ul{
+    width: 100vw;
+    height: fit-content;
+    background: white;
+}
+#sitelogo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+}
+#logohead{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 60px;
+    font-size: 22px;
+}
+#logosub{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 60px;
+    top: 23px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+}
+ul>li>img {
+    width: 20px;
+    height: 20px;
+    position: relative;+
+    display: flex;
+    top: 11px;
+}
+ul>li>a{
+    margin-left: 5px;
+}
+ul>li{
+    margin-right: 25px;
+}
+.formdiv{
+    width: 70vw;
+    height: content-box;
+    background: white;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 2vw;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.tablediv{
+    width: 70vw;
+    height: content-box;
+    background: #0dcaf0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 12vw;
+    margin: auto;
+    border-radius: 15px;
+}
+.maindiv{
+    width: 80vw;
+    height: 40vw;
+    background: rgb(255, 255, 255, 46%);
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 3vw;
+    bottom: 0;
+    margin: auto;
+    border-radius: 30px;
+}
+#divtitle3{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 15px;
+}
+.mt-5 {
+    margin-top: 3rem!important;
+    position: absolute;
+    top: 30vh;
+    left: 26vh;
+}
+.mt-6 {
+    margin-top: 3rem!important;
+    position: absolute;
+    left: 100vh;
+    top: 40vh;
+}
+.tablediv>div{
+    width: 35vw;
+    height: fit-content;
+    position: relative;
+    top: 10px;
+    margin: auto;
+}
+.tablediv>table{
+    width: 65vw;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.formdiv>form>div>input{
+    width: 20vw;
+    margin: 5px;
+}
+.order-row{
+    background: rgba(255, 255, 255, 0.71);
+    border-radius: 10px;
+}
+.order-sec{
+    width: 100%;
+    min-height: 36vw;
+    background: linear-gradient(180deg, rgb(0, 151, 236, 100%),rgb(255, 255, 255, 100%));
+}
+#discount{
+    color: #17b917;
+    font-size: 23px;
+    width: 75px;
+    border-radius: 30px;
+}
+#total{
+    color: #0d6efd;
+    font-size: 26px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    background: white;
+}
+#remaining{
+    font-size: 40px;
+    color: orange;
+    border: none;
+}
